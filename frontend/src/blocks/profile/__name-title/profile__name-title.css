@@ -1,0 +1,25 @@
+.profile__name-title {
+  margin: 0; /* Сброс стандартных стилей */
+  /* Параметры шрифта */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.14;
+  /* Запрет переноса и переполнения текста */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__name-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .profile__name-title {
+    font-size: 27px;
+    line-height: 33px;
+  }
+}

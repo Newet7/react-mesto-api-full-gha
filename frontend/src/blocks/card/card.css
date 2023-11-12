@@ -1,0 +1,9 @@
+.card {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden; /* Скругляет углы у картинки */
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
